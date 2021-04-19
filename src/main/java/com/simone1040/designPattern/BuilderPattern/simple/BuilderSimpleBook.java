@@ -1,12 +1,10 @@
-package com.simone1040.designPattern.BuilderPattern.simple.model;
+package com.simone1040.designPattern.BuilderPattern.simple;
 
-public class Book {
-    private int id;
-    private String title;
-    private int page;
-    private String author;
+import com.simone1040.model.Book;
 
-    private Book(int id) {
+public class BuilderSimpleBook extends Book {
+
+    private BuilderSimpleBook(int id) {
         this.id = id;
     }
 
@@ -54,9 +52,9 @@ public class Book {
             return this;
         }
 
-        public Book build(){
+        public BuilderSimpleBook build(){
             if(!title.equals("") && !author.equals("")){
-                Book ret = new Book(id);
+                BuilderSimpleBook ret = new BuilderSimpleBook(id);
                 ret.title = title;
                 ret.page = page;
                 ret.author = author;
