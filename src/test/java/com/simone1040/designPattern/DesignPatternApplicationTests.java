@@ -3,6 +3,8 @@ package com.simone1040.designPattern;
 import com.simone1040.designPattern.BuilderPattern.simple.BuilderSimpleBook;
 import com.simone1040.designPattern.BuilderPattern.spring_boot.SpringBook;
 import com.simone1040.designPattern.FactoryMethod.model.BookFactory;
+import com.simone1040.designPattern.Prototype.CloneFactory;
+import com.simone1040.designPattern.Prototype.model.Shape;
 import com.simone1040.designPattern.Singleton.LoggerThreadSafe;
 import com.simone1040.designPattern.Singleton.SingletonLogger;
 import com.simone1040.model.Book;
@@ -92,5 +94,15 @@ class DesignPatternApplicationTests {
 
 		Optional<Book> book1 = BookFactory.getBook(Book.BookType.YellowBook);
 		book1.ifPresent(value -> Assertions.assertEquals(value.getGenre(), Book.BookType.YellowBook));
+	}
+
+	@Test
+	@DisplayName("Design Patter Prototype without use of Spring boot")
+	public void PrototypePattern(){
+		Shape rectangle = CloneFactory.getShape(Shape.ShapeType.Rectangle);
+		Assertions.assertEquals(rectangle.getId(), 1);
+
+		Shape square = CloneFactory.getShape(Shape.ShapeType.Square);
+		Assertions.assertEquals(square.getId(), 2);
 	}
 }
