@@ -10,4 +10,4 @@ The singleton class is like a global repository for an instance of itself, makin
 Another version of Singleton is thread safe that allow you To make a singleton class thread-safe, 
 **getInstance() method is made synchronized so that multiple threads can’t access it simultaneously.**
 
-![Singleton Image](/static/images/singleton.png)
+![Singleton Image](../../../../../resources/static/images/singleton.png)
