@@ -1,6 +1,6 @@
 package com.simone1040.designPattern.creational.Prototype.model;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     public Rectangle(int id){
         type = ShapeType.Rectangle;
         this.setId(id);

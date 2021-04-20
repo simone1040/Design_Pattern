@@ -1,6 +1,6 @@
 package com.simone1040.designPattern.creational.Prototype.model;
 
-public class Square extends Shape{
+public class Square extends Shape {
     public Square(int id){
         type = ShapeType.Square;
         this.setId(id);

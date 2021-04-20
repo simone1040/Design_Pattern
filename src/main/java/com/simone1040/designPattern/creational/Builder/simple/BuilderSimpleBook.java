@@ -1,4 +1,4 @@
-package com.simone1040.designPattern.creational.BuilderPattern.simple;
+package com.simone1040.designPattern.creational.Builder.simple;
 
 import com.simone1040.model.Book;
 

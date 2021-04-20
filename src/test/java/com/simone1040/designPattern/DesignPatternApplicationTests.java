@@ -1,7 +1,7 @@
 package com.simone1040.designPattern;
 
-import com.simone1040.designPattern.creational.BuilderPattern.simple.BuilderSimpleBook;
-import com.simone1040.designPattern.creational.BuilderPattern.spring_boot.SpringBook;
+import com.simone1040.designPattern.creational.Builder.simple.BuilderSimpleBook;
+import com.simone1040.designPattern.creational.Builder.spring_boot.SpringBook;
 import com.simone1040.designPattern.creational.FactoryMethod.model.BookFactory;
 import com.simone1040.designPattern.creational.Prototype.CloneFactory;
 import com.simone1040.designPattern.creational.Prototype.model.Shape;

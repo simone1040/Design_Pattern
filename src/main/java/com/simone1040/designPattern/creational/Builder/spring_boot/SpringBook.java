@@ -1,4 +1,4 @@
-package com.simone1040.designPattern.creational.BuilderPattern.spring_boot;
+package com.simone1040.designPattern.creational.Builder.spring_boot;
 
 import lombok.Builder;
 import lombok.Getter;
