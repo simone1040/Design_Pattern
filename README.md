@@ -5,4 +5,5 @@ Project that collect GoF design pattern, plus other new design pattern
 
 ### Creational Pattern ###
 * Singleton Pattern
+* Factory Method  
 * Builder Pattern
