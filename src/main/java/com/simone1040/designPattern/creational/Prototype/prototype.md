@@ -12,4 +12,4 @@ An object that supports cloning is called a prototype.
 When your objects have dozens of fields and hundreds of possible configurations, 
 cloning them might serve as an alternative to subclassing.
 
-![Builder Image](../../../../../resources/static/images/prototype.jpg)
+![Builder Image](../../../../../../resources/static/images/prototype.jpg)

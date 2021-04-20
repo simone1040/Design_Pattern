@@ -5,4 +5,4 @@ The builder patter suggests you to extract object construction and move it to an
 A version of builder is inside a spring boot library called Lombok that permits you through class annotation
 @Builder to implements the pattern.
 
-![Builder Image](../../../../../resources/static/images/builder.png)
+![Builder Image](../../../../../../resources/static/images/builder.png)

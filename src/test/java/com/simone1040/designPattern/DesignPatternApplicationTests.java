@@ -1,12 +1,12 @@
 package com.simone1040.designPattern;
 
-import com.simone1040.designPattern.BuilderPattern.simple.BuilderSimpleBook;
-import com.simone1040.designPattern.BuilderPattern.spring_boot.SpringBook;
-import com.simone1040.designPattern.FactoryMethod.model.BookFactory;
-import com.simone1040.designPattern.Prototype.CloneFactory;
-import com.simone1040.designPattern.Prototype.model.Shape;
-import com.simone1040.designPattern.Singleton.LoggerThreadSafe;
-import com.simone1040.designPattern.Singleton.SingletonLogger;
+import com.simone1040.designPattern.creational.BuilderPattern.simple.BuilderSimpleBook;
+import com.simone1040.designPattern.creational.BuilderPattern.spring_boot.SpringBook;
+import com.simone1040.designPattern.creational.FactoryMethod.model.BookFactory;
+import com.simone1040.designPattern.creational.Prototype.CloneFactory;
+import com.simone1040.designPattern.creational.Prototype.model.Shape;
+import com.simone1040.designPattern.creational.Singleton.LoggerThreadSafe;
+import com.simone1040.designPattern.creational.Singleton.SingletonLogger;
 import com.simone1040.model.Book;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

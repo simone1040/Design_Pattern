@@ -1,4 +1,4 @@
-package com.simone1040.designPattern.FactoryMethod.model;
+package com.simone1040.designPattern.creational.FactoryMethod.model;
 
 import com.simone1040.model.Book;
 

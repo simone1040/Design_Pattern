@@ -1,21 +1,20 @@
-package com.simone1040.designPattern.Singleton;
+package com.simone1040.designPattern.creational.Singleton;
 
+import com.simone1040.model.Book;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class LoggerThreadSafe {
-    private static final LoggerThreadSafe istance = new LoggerThreadSafe();
+public class SingletonLogger extends Book {
+    private static final SingletonLogger istance = new SingletonLogger();
     private List<String> list;
 
-    private LoggerThreadSafe(){
+    private SingletonLogger(){
         empty();
     }
 
-    public static LoggerThreadSafe getInstance(){
-        synchronized (LoggerThreadSafe.class){
-            return istance;
-        }
+    public static SingletonLogger getInstance(){
+        return istance;
     }
 
     public void addRecord(String record){
