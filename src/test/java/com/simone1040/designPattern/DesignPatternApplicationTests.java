@@ -1,5 +1,8 @@
 package com.simone1040.designPattern;
 
+import com.simone1040.designPattern.creational.AbstractFactory.GuiProducer;
+import com.simone1040.designPattern.creational.AbstractFactory.model.Button;
+import com.simone1040.designPattern.creational.AbstractFactory.model.GuiFactory;
 import com.simone1040.designPattern.creational.Builder.simple.BuilderSimpleBook;
 import com.simone1040.designPattern.creational.Builder.spring_boot.SpringBook;
 import com.simone1040.designPattern.creational.FactoryMethod.model.BookFactory;
@@ -104,5 +107,15 @@ class DesignPatternApplicationTests {
 
 		Shape square = CloneFactory.getShape(Shape.ShapeType.Square);
 		Assertions.assertEquals(square.getId(), 2);
+	}
+
+	@Test
+	@DisplayName("Design Patter Abstract without use of Spring boot")
+	public void AbstractPattern(){
+		GuiFactory gui = GuiProducer.getGuiFactory(false);
+		Button windowsButton = gui.createButton(GuiFactory.TypeGui.WindowsGui);
+		Assertions.assertEquals(windowsButton.paint(), Button.TypeButton.Windows);
+		Assertions.assertEquals(GuiProducer.getGuiFactory(true).createButton(GuiFactory.TypeGui.LinuxGui).paint(), Button.TypeButton.LinuxRounded);
+		Assertions.assertNotEquals(GuiProducer.getGuiFactory(false).createButton(GuiFactory.TypeGui.LinuxGui).paint(), Button.TypeButton.WindowsRounded);
 	}
 }
