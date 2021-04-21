@@ -8,3 +8,9 @@ Project that collect GoF design pattern, plus other new design pattern
 * Factory Method
 * Prototype Pattern  
 * Builder Pattern
+* Abstract Factory
+* Object Pool (to implement)
+
+### Structural Pattern ###
+
+* Adapter
