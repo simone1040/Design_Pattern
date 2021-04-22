@@ -14,3 +14,5 @@ Project that collect GoF design pattern, plus other new design pattern
 ### Structural Pattern ###
 
 * Adapter
+* Bridge
+* Composite

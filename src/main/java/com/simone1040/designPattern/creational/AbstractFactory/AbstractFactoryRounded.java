@@ -1,7 +1,6 @@
 package com.simone1040.designPattern.creational.AbstractFactory;
 
 import com.simone1040.designPattern.creational.AbstractFactory.model.Button;
-import com.simone1040.designPattern.creational.AbstractFactory.model.GuiFactory;
 import com.simone1040.designPattern.creational.AbstractFactory.model.LinuxButtonRounded;
 import com.simone1040.designPattern.creational.AbstractFactory.model.WindowsButtonRounded;
 
