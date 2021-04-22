@@ -10,6 +10,7 @@ uniformly.
 * Composite allows you to describe a recursive composition, that permits the client to treat all elements evenly.
 
 ### Solution ###
+![Composite Image](../../../../../../resources/static/images/composite.PNG)
 
 * **Component:** Interface (or abstract class) that rappresents simple elements and not.
 Implements common operation and can define an operation that allows elements to access parent
@@ -20,4 +21,3 @@ Implements common operation and can define an operation that allows elements to 
 * **Composite:** Container class that defines the behavior for the aggregate of child elements;
 holds the reference to each of the child elements.
 
-![Composite Image](../../../../../../resources/static/images/composite.PNG)

@@ -16,3 +16,4 @@ Project that collect GoF design pattern, plus other new design pattern
 * Adapter
 * Bridge
 * Composite
+* Decorator
