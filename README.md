@@ -17,4 +17,8 @@ Project that collect GoF design pattern, plus other new design pattern
 * Bridge
 * Composite
 * Decorator
-* Facades
+* Facade
+* Flyweight
+* Proxy
+
+### Behavioral Pattern ###
