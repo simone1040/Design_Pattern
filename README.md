@@ -22,3 +22,5 @@ Project that collect GoF design pattern, plus other new design pattern
 * Proxy
 
 ### Behavioral Pattern ###
+* Chain of responsibility
+* Command
